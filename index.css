@@ -1,0 +1,114 @@
+*{
+    text-decoration:none;
+    padding:0;
+    margin:0;
+}
+
+
+
+.navbar{
+    border:3px solid black;
+    display:flex;
+    flex-direction:row;
+    margin-bottom:40px;
+    background:url(https://cdn1.vectorstock.com/i/1000x1000/97/35/seamless-space-background-vector-20669735.jpg);
+}
+.myName{
+    display:flex;
+    height:50px;
+    justify-content:center;
+    align-items:center;
+}
+.myName h1{
+    font-family:arial;
+    color:white;
+}
+.links{
+    display:flex;
+    
+    justify-content:space-evenly;
+    padding-bottom:5px;
+}
+.links a{
+    align-items:space-evenly;
+    border:1px solid black;
+    background:gray;
+    justify-content:space-around;
+    font-size:16px;
+    font-family:arial;
+    color:white;
+}
+.middle{
+    
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+}
+.topdiv{
+    display:flex;
+    height:400px;
+    flex-flow:row wrap;
+    width:400px;
+    border:1px double black;
+    margin-left:50px;
+    background:url(https://picsum.photos/400);
+    box-sizing:border-box;
+}
+.info{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:flex-start;
+    align-items:center;
+    margin-top:180px;
+    width: 400px;
+    height:200px;
+}
+
+
+.bottom{
+    display:flex;
+    height:75vh;
+    flex-flow:row wrap;
+    width:70%;
+    margin:auto;
+    color:white;
+}
+
+.img{
+    display:flex;
+    flex-flow:row wrap;
+    background:url(https://picsum.photos/124);
+    width:124px;
+    height:124px;
+    box-sizing:border-box;
+    border:1px solid black;
+    margin:auto;
+    
+}
+.footer{
+    display:flex;
+    flex-flow:column;
+    height:60px;
+    border:2px solid black;
+    justify-content:center;
+    align-items:center;
+    background:lightgray;
+    
+}
+.footer h2{
+    font-family:arial;
+    display:flex
+}
+.footer a{
+    color:white;
+    border:1px solid black;
+    background:gray;
+    text-shadow:1px 1px black;
+    border-radius:2px;
+}
+.footer a:hover{
+    color:black;
+    background:white;
+    text-shadow:1px 1px gray;
+}
+
