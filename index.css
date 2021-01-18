@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+html{
+    font-size:62.5%;
+}
 *{
     margin:0;
     padding:0;
@@ -10,34 +13,42 @@ body{
     display:block;
     flex-flow:row wrap;
     background:#637fb9;
-    height:36px;
+    height:5%;
 }
 .myName{
     display:flex;
 }
 .myName h1{
-    padding-left:10px;
+    padding-left:1%;
     font-family:arial;
+    font-size:2.5rem;
 }
 .navbar{
     display:flex;
+    justify-content:flex-start;
+    padding-bottom:2px;
+    
     
 }
 .navbar a{
-    padding-right:20px;
+    font-size:1.2rem;
+    padding:0px 4px;
     text-decoration:none;
     color:rgb(0, 0, 0);
     font-family:arial;
     border:1px solid black;
     background:white;
+    margin:2px;
+
 }
 .section1{
     display:flex;
     flex-flow:row wrap;
     margin-top:90px;
-    width:90%;
-    height:400px;
-    margin-left:100px;
+    width:60%;
+    height:100%;
+    margin-left:20%;
+    margin-right:10%;
     margin-top:50px;
     background:#c2c8f1;
     border:1px solid black;
@@ -61,6 +72,7 @@ body{
 }
 .text h2{
     font-family:arial;
+    padding-bottom:5%;
 }
 .button a{
     display:inline-block;
@@ -76,7 +88,8 @@ body{
 .text p{
     display:flex;
     font-family: 'Source Code Pro', monospace;
-    font-size:1em;
+    font-size:1.5em;
+    padding-top:5%;
 }
 .section2{
     background:pink;
@@ -86,10 +99,10 @@ body{
     align-items:space-evenly;
     margin-top:90px;
     width:70vw;
-    height:400px;
-    margin:auto;
-    margin-top:40px;
+    height:70vh;
     border:2px solid black;
+    margin-left:auto;
+    margin-right:auto;
 }
 .picture2{
     background:url(https://picsum.photos/140);
@@ -111,7 +124,31 @@ body{
     border:2px solid black;
     margin-top:180px;
 }
+@media (max-width:800px) {
 
+    .section2{
+        justify-content:center;
+        align-items:center;
+    }
+
+}
+
+
+}
+
+@media(max-width:500px){
+    header{
+        display:flex;
+        flex-flow:column wrap;
+        justify-content:center;
+
+    }
+    .navbar{
+        display:flex;
+        flex-flow:column wrap;
+    }
+
+}
 
 
 
